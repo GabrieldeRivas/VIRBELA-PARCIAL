@@ -1,0 +1,45 @@
+body.dark {
+    background-color: #111;
+}
+
+body.dark .navbar, body.dark #footer-logo {
+    filter: invert(1);
+}
+
+body.dark .color-vir, body.dark #bread a {
+    color: #da6222;
+}
+
+body.dark .color-be {
+    color: #91226b;
+}
+
+body.dark .color-la {
+    color: rgb(19, 184, 145);
+}
+
+body.dark #cont1 {
+    background: rgb(89,157,227);
+    background: linear-gradient(156deg, #ad4e1c 0%, #91226b 50%, rgb(19, 184, 145) 100%);
+}
+
+body.dark #cont2 h1, body.dark #cont2 p, body.dark .info-register{
+    color: whitesmoke;
+}
+
+body.dark .form-container {
+    background-color: #ad4e1c;
+    border-color: #9b400f;
+    box-shadow: none;
+}
+
+body.dark #cont3 {
+    border-top: 7px solid rgb(100, 15, 69);
+    border-bottom: 7px solid rgb(100, 15, 69);
+    background-color: #921767;
+    box-shadow: none;
+}
+
+body.dark .red-hover:hover, body.dark #location:hover {
+    color: rgb(12, 140, 110) !important;
+}
